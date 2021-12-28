@@ -1,0 +1,15 @@
+{
+  "name": "cafeteriasass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch src/scss:build.scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.45.0"
+  }
+}

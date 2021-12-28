@@ -1,0 +1,16 @@
+@use '../custom';
+
+.header {
+    padding: 3rem 0;
+    @include custom.media-breakpoint-up (md) {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+
+    span {
+        font-size: 4rem;
+        font-family: 'Pacifico', cursive;
+        width: 10rem;
+    }
+}
+
